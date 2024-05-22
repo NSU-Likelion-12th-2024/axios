@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap");
+@import "./reset.css";
+
+.custom-body {
+    margin: 0;
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 70px;
+    font-style: normal;
+    font-size: 24px;
+    height: 100vh;
+    overflow-y: auto; 
+}
+
+.html {
+    height: 100%; 
+}
+
+
+.custom-footer {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+    height: 200px; 
+    overflow-y: auto; 
+}
+
+.header{
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
+.custom-h1 {
+    margin: 0;
+}
+
+.custom-main {
+    padding: 20px;
+}
+
+.custom-question {
+    margin-bottom: 20px;
+}
+
+.custom-comment {
+    margin-top: 20px;
+}
+
+.custom-logo {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+.custom-orange-button {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.custom-orange-button:hover {
+    background-color: darkorange;
+}
+
+.custom-input-container {
+    margin-bottom: 15px;
+}
+
+.custom-input-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.custom-input-container textarea {
+    width: calc(100% - 20%);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px !important;
+}
+
+.custom-input-container input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.custom-email-input {
+    width: calc(100% - 65%);
+}
+
+.custom-name-input {
+    width: calc(100% - 65%);
+}

@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+*{
+  font-family: "Jua", sans-serif;
+    overflow: hidden;
+    
+}
+
+.jua-regular {
+  font-family: "Jua", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+  
+.slider-container {
+    width: 100%;
+    margin: 0 auto;
+    position:relative;
+
+    z-index: 1;
+  }
+  
+  .slide {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee; 
+  }
+
+  .slick-dots {
+    position:absolute;
+    top:80%;
+  }
+  
+  .slick-dots li button:before {
+    font-size: 10px;
+    color: rgb(255, 119, 16); 
+}
+
+.slider-container {
+   
+    overflow: hidden;
+  }
+  .arrow {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: transparent; 
+    z-index: 99;
+  }
+  .arrow.prev {
+    left: 10px; 
+  }
+  .arrow.next {
+    right: 10px; 
+  }
+  button{
+    cursor: pointer;
+    border:0;
+    font-size: 50px;
+  }
+  .slide{
+    position:relative;
+    height:100vh;
+    box-sizing: border-box;
+    font-size: 35px;
+  }
+
+label {
+    display: inline-block;
+    padding: 10px;
+    border: 0.5px solid #ccc;
+    border-radius: 15px;
+    cursor: pointer;
+    width:830px;
+    padding:15px 15px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-family: "Jua", sans-serif;
+}
+  .inner{
+    width:60%;
+height: 100vh;
+   position:absolute;
+    top:62%;
+    left: 53%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+  }
+  input[type="radio"] {
+    display: none;
+    width:100%;
+    z-index: 99;
+}
+.inner p{font-family: "Jua", sans-serif;}
+input[type="radio"]:hover+label{
+    background-color: rgb(250, 157, 87); 
+    color: black; 
+    border:1px solid black;
+}
+.radio:checked + .label1 {
+    background-color: rgb(255, 119, 16); 
+    color: #ffffff; 
+    border:1px solid black;
+}
+.radio2:checked + .label2 {
+    background-color: rgb(255, 119, 16); 
+    color: #ffffff; 
+    border:1px solid black;
+}
+
+.radio3:checked + .label3 {
+    background-color: rgb(255, 119, 16); 
+    color: #ffffff; 
+    border:1px solid black;
+}
+.radio4:checked + .label4 {
+    background-color: rgb(255, 119, 16); 
+    color: #ffffff; 
+    border:1px solid black;
+}
+.radio5:checked + .label5 {
+    background-color: rgb(255, 119, 16); 
+    color: #ffffff; 
+    border:1px solid black;
+}
+
+.radio6:checked + .label6 {
+  background-color: rgb(255, 119, 16) ;
+  color: #ffffff;
+  border:1px solid black;
+}
+.rd7:checked + .lb7 {
+  background-color: rgb(255, 119, 16);
+  color: #ffffff;
+  border:1px solid black;
+}
+.rd8:checked + .lb8 {
+  background-color: rgb(255, 119, 16);
+  color: #ffffff;
+  border:1px solid black;
+}
+.slide,
+.slick-cloned {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+}
+.hidden {
+  display: none;
+}
+.result_choice{
+  display: block;
+  margin-top: 30px;
+  text-decoration: none;
+  width:300px;
+  height: 65px;
+  background-color: rgb(255, 119, 16);
+  border:1px solid #ccc;
+  border-radius: 15px;
+  text-align: center;
+  line-height: 50px;
+  position:absolute;
+  transform: translateX(85%);
+color:black;
+font-size: 25px;
+font-family: "Jua", sans-serif;
+}
+
+@media (max-width :460px) {
+  .slide .inner p{
+      font-size: 17px;
+      margin-top:2px;
+  }
+  input[type="radio"]+label{
+    width:85%;
+    font-size: 13px;
+    padding:10px 10px;
+  }
+  button {
+   font-size: 25px;
+  }
+  .slick-dots li button:before {
+    font-size: 10px;
+   
+}
+input[type="submit"]{
+  width: 70%;
+  transform: translateX(15%);
+  margin-top: -10px;
+  height: 30px;
+  line-height: 20px;
+  font-size: 15px;
+}
+
+.num{
+  display: none;
+}
+
+input[type="radio"]+label.pl1{
+  height: 90px;
+}
+  };
+  
+  
+
